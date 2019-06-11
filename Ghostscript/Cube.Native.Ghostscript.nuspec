@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <version>9.26</version>
+        <id>Cube.Native.Ghostscript</id>
+        <title>Cube.Native.Ghostscript</title>
+        <authors>Artifex</authors>
+        <owners>clown,cube-soft</owners>
+        <description>Pack gsdll32.dll and related resources as a NuGet manner.</description>
+        <copyright>Copyright © 2019 Artifex Software, Inc. All rights reserved.</copyright>
+        <tags>Cube Native Ghostscript</tags>
+        <license type="expression">AGPL-3.0-or-later</license>
+        <projectUrl>https://www.ghostscript.com/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    </metadata>
+    <files>
+        <file src="bin\9.26\win-x86\*" target="runtimes\win-x86\native" />
+        <file src="bin\9.26\win-x64\*" target="runtimes\win-x64\native" />
+    </files>
+</package>
