@@ -9,7 +9,7 @@
         <description>Pack gsdll32.dll and related resources as an unofficial NuGet package.</description>
         <copyright>Copyright © 2020 Artifex Software, Inc.</copyright>
         <tags>Cube Native Ghostscript</tags>
-        <readme>docs\readme.md</readme>
+        <readme>docs\Readme.md</readme>
         <license type="expression">AGPL-3.0-or-later</license>
         <projectUrl>https://github.com/cube-soft/Cube.Native.Ghostscript</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
