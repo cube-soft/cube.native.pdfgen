@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
     <metadata>
-        <version>10.0.0</version>
+        <version>10.1.1</version>
         <id>Cube.Native.Ghostscript</id>
         <title>Cube.Native.Ghostscript</title>
         <authors>clown,cube-soft,Artifex</authors>
@@ -16,9 +16,9 @@
     </metadata>
     <files>
         <file src="Readme.md" target="docs" />
-        <file src="bin\10.0.0\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
-        <file src="bin\10.0.0\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
-        <file src="bin\10.0.0\win-x86\contents\**\*" target="contents\win-x86" />
-        <file src="bin\10.0.0\win-x64\contents\**\*" target="contents\win-x64" />
+        <file src="bin\10.1.1\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
+        <file src="bin\10.1.1\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
+        <file src="bin\10.1.1\win-x86\contents\**\*" target="contents\win-x86" />
+        <file src="bin\10.1.1\win-x64\contents\**\*" target="contents\win-x64" />
     </files>
 </package>
