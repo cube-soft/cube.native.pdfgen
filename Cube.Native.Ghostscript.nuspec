@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
 <package >
     <metadata>
-        <version>10.1.1</version>
+        <version>10.1.2</version>
         <id>Cube.Native.Ghostscript</id>
         <title>Cube.Native.Ghostscript</title>
         <authors>clown,cube-soft,Artifex</authors>
         <owners>clown,cube-soft</owners>
         <description>Pack gsdll32.dll and related resources as an unofficial NuGet package.</description>
-        <copyright>Copyright © 2022 Artifex Software, Inc.</copyright>
+        <copyright>Copyright © 2023 Artifex Software, Inc.</copyright>
         <tags>Cube Native Ghostscript</tags>
         <readme>docs\Readme.md</readme>
         <license type="expression">AGPL-3.0-or-later</license>
-        <projectUrl>https://github.com/cube-soft/Cube.Native.Ghostscript</projectUrl>
+        <projectUrl>https://github.com/cube-soft/cube.native.ghostscript</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
     </metadata>
     <files>
         <file src="Readme.md" target="docs" />
-        <file src="bin\10.1.1\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
-        <file src="bin\10.1.1\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
-        <file src="bin\10.1.1\win-x86\contents\**\*" target="contents\win-x86" />
-        <file src="bin\10.1.1\win-x64\contents\**\*" target="contents\win-x64" />
+        <file src="bin\10.1.2\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
+        <file src="bin\10.1.2\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
+        <file src="bin\10.1.2\win-x86\contents\**\*" target="contents\win-x86" />
+        <file src="bin\10.1.2\win-x64\contents\**\*" target="contents\win-x64" />
     </files>
 </package>
