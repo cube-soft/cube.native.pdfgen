@@ -7,6 +7,6 @@ Cube.Native.Ghostcript is an unofficial NuGet package of the gsdll32.dll and rel
 
 ## License
 
-Copyright © 2023 Artifex Software, Inc.  
+Copyright © 2024 Artifex Software, Inc.  
 Copyright © 2010 [CubeSoft, Inc.](https://www.cube-soft.jp/)  
 The project is licensed under the [GNU AGPLv3](https://github.com/cube-soft/Cube.native.ghostscript/blob/master/License.txt).
