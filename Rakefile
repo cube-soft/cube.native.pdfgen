@@ -30,7 +30,7 @@ task :default => [:clean, :pack]
 # --------------------------------------------------------------------------- #
 desc "Create the specified kind of NuGet package."
 task :pack do
-    cmd("nuget pack Cube.Native.Ghostscript.nuspec")
+    cmd("nuget pack Cube.Native.Pdfgen.nuspec")
 end
 
 # --------------------------------------------------------------------------- #
