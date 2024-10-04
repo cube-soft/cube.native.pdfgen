@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
     <metadata>
-        <version>10.3.1</version>
+        <version>10.4.0</version>
         <id>Cube.Native.Pdfgen</id>
         <title>Cube.Native.Pdfgen</title>
         <authors>clown,cube-soft</authors>
@@ -16,9 +16,9 @@
     </metadata>
     <files>
         <file src="Readme.md" target="docs" />
-        <file src="bin\10.3.1\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
-        <file src="bin\10.3.1\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
-        <file src="bin\10.3.1\win-x86\contents\**\*" target="contents\win-x86" />
-        <file src="bin\10.3.1\win-x64\contents\**\*" target="contents\win-x64" />
+        <file src="bin\10.4.0\win-x86\gsdll32.*" target="runtimes\win-x86\native" />
+        <file src="bin\10.4.0\win-x64\gsdll32.*" target="runtimes\win-x64\native" />
+        <file src="bin\10.4.0\win-x86\contents\**\*" target="contents\win-x86" />
+        <file src="bin\10.4.0\win-x64\contents\**\*" target="contents\win-x64" />
     </files>
 </package>
